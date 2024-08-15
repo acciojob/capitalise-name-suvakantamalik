@@ -1,4 +1,5 @@
 //your JS code here. If required.
-document.getElementById("fname").addEventListner("blur", function() {
+document.getElementById("fname").addEventListener("blur", function() {
 	this.value = this.value.toUpperCase();
-})
+});
+
